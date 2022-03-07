@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p, h3, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 88px;
+  font-family: 'Great Vibes', cursive;
+}
+h2 {
+  font-size: 38px;
+}
+
+/*Navegación*/
+
+.menu {
+  height: 120px;
+  display: flex;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 20px;
+}
+.logo img {
+height: 100%;
+}
+.navegacion {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 66%;
+}
+#menuprincipal li{
+  display: inline;
+  margin-right: 30px;
+  font-size: 30px;
+  font-family: 'Great Vibes', cursive;
+}
+#menuprincipal li:hover {
+  color: pink;
+}
+.banner_heading {
+  height: 500px;
+  background-image: url("bannerD&D.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+/*Pasteles*/
+
+.contenedor_productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.pasteles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.pasteles img {
+  width: 80%;
+  margin: auto;
+}
+.pasteles p {
+  font-size: 22px;
+  margin: 0;
+}
+.pasteles h3 {
+  color: #540E3C;
+}
+ /*Formulario*/
+
+ .formulario {
+   width: 90%;
+   margin: auto;
+ }
+
+  /*Nosotros*/
+
+ .nosotros {
+   width: 100%;
+   height: 400px;
+   margin: auto;
+   background-color: pink;
+ }
+ .contenedor_nosotros {
+   width: 90%;
+   margin: 30px auto;
+   padding-top: 20px;
+ }
+ .contenedor_nosotros p {
+   font-size: 22px;
+ }
+
+ /*footer*/
+
+footer {
+  background-color: black;
+  height: 250px;
+}
+.contenedor_footer {
+  display: flex;
+}
+.columnas {
+  width: 33%;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+}
+.columnas p {
+  font-size: 12px;
+}
+.columnas h3 {
+  margin: 0;
+  color: white;
+}
+.columnas span {
+  font-size: 38px;
+}
