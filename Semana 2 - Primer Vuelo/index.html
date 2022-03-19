@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dulces y Delicias</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="script.css">
+  <script src="https://kit.fontawesome.com/4277c88f0f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="heading">
+  <div class="contenedor_heading">
+    <div class="menu">
+      <div class="logo"><img src="LogoD&D.png" alt="Logo D&D"></div>
+      <nav class="navegacion">
+        <ul id="menuprincipal">
+          <li>Inicio</li>
+          <li>Productos</li>
+          <li>Pedidos</li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+      <div class="banner_heading">
+        <h1>Dulces y Delicias</h1>
+        <h2>Los mejores pasteles directos a tu casa</h2>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="productos">
+  <div class="contenedor_productos">
+    <div class="pasteles">
+      <img src="producto1.jpg" alt="">
+      <p>Pastel de Nuéz</p>
+      <h3>$299</h3>
+    </div>
+    <div class="pasteles">
+      <img src="producto2.jpg" alt="">
+      <p>Pastel de Chocolate</p>
+      <h3>$299</h3>
+    </div>
+    <div class="pasteles">
+      <img src="producto3.png" alt="">
+      <p>Pastel de Cacahuate</p>
+      <h3>$299</h3>
+    </div>
+    <div class="pasteles">
+      <img src="producto4.jpg" alt="">
+      <p>Pastel de Fresa</p>
+      <h3>$299</h3>
+    </div>
+    <div class="pasteles">
+      <img src="producto5.jpg" alt="">
+      <p>Pastel de Frutos Rojos</p>
+      <h3>$299</h3>
+    </div>
+    <div class="pasteles">
+      <img src="producto6.png" alt="">
+      <p>Pastel de Chocolate Blanco</p>
+      <h3>$299</h3>
+    </div>
+    <div class="pasteles">
+      <img src="producto7.jpg" alt="">
+      <p>Pastel de Café</p>
+      <h3>$299</h3>
+    </div>
+    <div class="pasteles">
+      <img src="producto8.png" alt="">
+      <p>Pastel de Mil Hojas</p>
+      <h3>$299</h3>
+    </div>
+  </div>
+</section>
+<section class="formulario">
+  <h1>Arma tu pastel</h1>
+  <div id="form_container">
+    <form id="pedido" class=""  method="post" action="">
+      <label class="description" for="element_1">Nombre: </label>
+    <span>
+      <input id="element_1_1" name= "element_1_1" class="element text" maxlength="255" size="8" value=""/>
+    </span>
+    <br>
+    <br>
+    <label class="description" for="element_2">Email: </label>
+      <input id="element_2" name="element_2" class="element text medium" type="text" maxlength="255" value=""/>
+      <br>
+    <br>
+    <label class="description" for="element_3">Dirección </label>
+    <input id="element_3_1" name="element_3_1" class="element text large" value="" type="text">
+    <br>
+    <br>
+    <label for="element_3_1">Calle y Número</label>
+    <input id="element_3_2" name="element_3_2" class="element text large" value="" type="text">
+    <br>
+    <br>
+    <label for="element_3_2">Colonia</label>
+    <input id="element_3_3" name="element_3_3" class="element text medium" value="" type="text">
+    <br>
+    <br>
+    <label for="element_3_3">Ciudad</label>
+    <input id="element_3_4" name="element_3_4" class="element text medium" value="" type="text">
+    <br>
+    <br>
+    <label for="element_3_4">Estado</label>
+    <input id="element_3_5" name="element_3_5" class="element text medium" maxlength="15" value="" type="text">
+    <br>
+    <br>
+    <label class="description" for="element_4">Fechas </label>
+    <span>
+      <input id="element_4_1" name="element_4_1" class="element text" size="2" maxlength="2" value="" type="text"> /
+      <label for="element_4_1">MM</label>
+    </span>
+    <span>
+      <input id="element_4_2" name="element_4_2" class="element text" size="2" maxlength="2" value="" type="text"> /
+      <label for="element_4_2">DD</label>
+    </span>
+    <span>
+      <input id="element_4_3" name="element_4_3" class="element text" size="4" maxlength="4" value="" type="text">
+      <label for="element_4_3">YYYY</label>
+    </span>
+    <br>
+    <br>
+    <label class="description" for="element_5">Tamaño </label>
+    <span>
+      <input id="element_5_1" name="element_5" class="element radio" type="radio" value="1" />
+      <label class="choice" for="element_5_1">10 Personas</label>
+      <input id="element_5_2" name="element_5" class="element radio" type="radio" value="2" />
+      <label class="choice" for="element_5_2">20 personas</label>
+      <input id="element_5_3" name="element_5" class="element radio" type="radio" value="3" />
+      <label class="choice" for="element_5_3">30 personas</label>
+    </span>
+    <br>
+    <br>
+    <label class="description" for="element_6">Sabor </label>
+    <span>
+      <input id="element_6_1" name="element_6_1" class="element checkbox" type="checkbox" value="1" />
+      <label class="choice" for="element_6_1">Vainilla</label>
+      <input id="element_6_2" name="element_6_2" class="element checkbox" type="checkbox" value="1" />
+      <label class="choice" for="element_6_2">Chocolate</label>
+      <input id="element_6_3" name="element_6_3" class="element checkbox" type="checkbox" value="1" />
+      <label class="choice" for="element_6_3">Combinado</label>
+    </span>
+    <br>
+    <br>
+    <label class="description" for="element_7">Decoración </label>
+    <span>
+      <input id="element_7_1" name="element_7_1" class="element checkbox" type="checkbox" value="1" />
+      <label class="choice" for="element_7_1">Crema Pastelera</label>
+      <input id="element_7_2" name="element_7_2" class="element checkbox" type="checkbox" value="1" />
+      <label class="choice" for="element_7_2">Fondant</label>
+    </span>
+    <br>
+    <br>
+        <input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+    </form>
+  </div>
+</section>
+<section class="nosotros">
+  <div class="contenedor_nosotros">
+    <h1>Sabor para compartir</h1>
+    <p>Nuestro servicio de excelencia está disponible en más de 35 sucursales en el occidente del país, abiertas y con servicio a domicilio los 365 días del año para que nuestra marca siempre te acompañe en los momentos de celebración más especiales de tu vida.</p>
+  </div>
+
+</section>
+<footer>
+  <div class="contenedor_footer">
+    <div class="columnas">
+      <h3>Datos</h3>
+      <p>Direccion:</p>
+      <p>Avena 433, Granjas México</p>
+      <p>Iztacalco, CDMX  México</p>
+      <p>Teléfono:</p>
+        <p>5584986917</p>
+      <p>Horario:</p>
+      <p>Martes a Domingo 9 am a 10 pm</p>
+    </div>
+    <div class="columnas">
+      <h3>Redes Sociales</h3>
+      <p><span><i class="fa-brands fa-facebook"></i></span></p>
+      <p><span><i class="fa-brands fa-instagram"></i></span></p>
+    </div>
+    <div class="columnas">
+      <h3>Derechos</h3>
+      <p>Hecho con <i class="fa-solid fa-heart"></i> por Jerog Zurc 2022</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
